@@ -1,0 +1,10 @@
+export { default as bg1 } from "./young-male-pharmacist-giving-prescription-medications-to-senior-female-customer-in-a-pharmacy.jpg";
+export { default as bg2 } from "./portrait-of-a-handsome-pharmacist-working-in-a-pharmacy (1).jpg";
+export { default as testimonial } from "./Testimonial.png";
+export { default as medicine } from "./medicine-products-placed-in-shelves-at-pharmacy.jpg";
+export { default as onko } from "./onko-ilac.png";
+export { default as pf } from "./pf.png";
+export { default as kopas } from "./kopas.jpg";
+export { default as atabay } from "./Atabay.jpg";
+export { default as astella } from "./ASTellas-logo-440px.png";
+export { default as dalin } from "./Dalin.png";

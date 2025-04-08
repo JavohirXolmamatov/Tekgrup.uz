@@ -19,7 +19,7 @@ function Header() {
           <span className="">+998 55 515 04 15</span>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full bg-blue-500/5">
         <div className="py-3 w-9/10 mx-auto flex flex-row items-center justify-between">
           <img
             src="/public/TEK-GRUP_logo-2.png"

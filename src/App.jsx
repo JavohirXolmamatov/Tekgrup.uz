@@ -1,8 +1,14 @@
 import { Routes, Route, useLocation } from "react-router";
 import { About, Contact, Footer, Header, Main, News, Products } from "./pages";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
   const location = useLocation();
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
   switch (location.pathname) {
     case "/":
