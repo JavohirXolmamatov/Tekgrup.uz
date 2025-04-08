@@ -71,7 +71,7 @@ function Header() {
             {/* Mobile menu */}
             {menuOpen && (
               <div
-                className={`absolute md:hidden bg-black/10 top-[76px] w-[150px] ${
+                className={`absolute md:hidden bg-gray-200 top-[76px] w-[150px] ${
                   menuOpen
                     ? "translate-x-0 -right-5 "
                     : "translate-x-full -right-[250px] "
