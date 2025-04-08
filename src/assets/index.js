@@ -8,3 +8,8 @@ export { default as kopas } from "./kopas.jpg";
 export { default as atabay } from "./Atabay.jpg";
 export { default as astella } from "./ASTellas-logo-440px.png";
 export { default as dalin } from "./Dalin.png";
+export { default as medicine2 } from "./medicine.jpg";
+export { default as sertificate } from "./tekgrupsaglik_zertifikate_25-1-212x300.png";
+export { default as konferensiya } from "./Konferensiya-789-300x225.jpg";
+export { default as male } from "./male-pharmacist-selling-medications-at-drugstore-to-a-senior-woman-customer-300x200.jpg";
+export { default as trening } from "./trening-1-300x225.jpg";
