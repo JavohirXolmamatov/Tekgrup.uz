@@ -71,7 +71,7 @@ function Header() {
             {/* Mobile menu */}
             {menuOpen && (
               <div
-                className={`absolute md:hidden bg-gray-200 top-[76px] w-[150px] ${
+                className={`absolute md:hidden bg-gray-200 top-[76px] w-[150px] z-99 ${
                   menuOpen
                     ? "translate-x-0 -right-5 "
                     : "translate-x-full -right-[250px] "
@@ -106,7 +106,7 @@ function Header() {
                       Contact
                     </NavLink>
                   </li>
-                  <select name="" id="" className="">
+                  <select name="languages" id="languages" className="">
                     <option value="uz">UZ</option>
                     <option value="ru">RU</option>
                     <option value="en">EN</option>

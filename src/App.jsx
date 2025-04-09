@@ -1,10 +1,20 @@
 import { Routes, Route, useLocation } from "react-router";
-import { About, Contact, Footer, Header, Main, News, Products } from "./pages";
+import {
+  About,
+  Contact,
+  Footer,
+  Header,
+  ItemNews,
+  Main,
+  News,
+  Products,
+} from "./pages";
 import { useEffect } from "react";
 import Aos from "aos";
 
 function App() {
   const location = useLocation();
+  console.log(location);
 
   useEffect(() => {
     Aos.init();
@@ -38,6 +48,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/news" element={<News />} />
+        <Route path="/news/item/:id" element={<ItemNews />} />
         <Route path="/product" element={<Products />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

@@ -134,7 +134,7 @@ function Main() {
       </section>
 
       {/* 4 */}
-      <section className="w-full bg-blue-500/5 h-auto py-10">
+      <section className="w-full bg-blue-500/5 h-auto py-10 box-border">
         <div className="md:w-8/10 w-9/10 mx-auto md:py-20 py-5">
           <h1
             data-aos="fade-right"
@@ -156,7 +156,7 @@ function Main() {
               </h1>
               <img src={testimonial} alt="testimonial" />
             </div>
-            <div className="md:w-2/4 w-full flex flex-col gap-5">
+            <div className="md:w-2/4 w-full flex flex-col gap-5 flex-wrap box-border overflow-hidden">
               <div
                 data-aos="fade-left"
                 data-aos-offset="300"

@@ -1,18 +1,24 @@
 import React from "react";
 import { konferensiya, male, medicine2, sertificate, trening } from "../assets";
+import { NavLink } from "react-router";
 
 function News() {
   return (
     <div className="w-full pb-10">
-      <div className="w-full mb-10">
+      <div className="w-full mb-10 relative">
         <img
           src={medicine2}
           alt="medicine2"
           className="w-full h-[300px] object-cover"
         />
+        <div className="absolute top-0 left-0 right-0 h-full w-full bg-black/30 flex justify-center items-center align-middle">
+          <h1 data-aos="zoom-in-up" className="text-6xl text-white font-bold">
+            Yangiliklar
+          </h1>
+        </div>
       </div>
-      <div className="w-9/10 mx-auto mb-10 text-black/70 flex flex-wrap gap-8 justify-between">
-        <div className="w-[30%]">
+      <div className="w-9/10 mx-auto mb-10 text-black/70 flex md:flex-row flex-col flex-wrap gap-8 justify-between">
+        <div className="md:w-[30%] w-full shadow-xl p-4">
           <img
             src={sertificate}
             alt="sertificate"
@@ -36,7 +42,7 @@ function News() {
             Ko'proq o'qish
           </a>
         </div>
-        <div className="w-[30%]">
+        <div className="md:w-[30%] w-full shadow-xl p-4" id="2">
           <img
             src={trening}
             alt="sertificate"
@@ -53,14 +59,14 @@ function News() {
             tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
             yuqori
           </p>
-          <a
-            href="#"
+          <NavLink
+            to="/news/item/2"
             className="hover:text-[#009F7F] transition-all duration-400 font-medium"
           >
             Ko'proq o'qish
-          </a>
+          </NavLink>
         </div>
-        <div className="w-[30%]">
+        <div className="md:w-[30%] w-full shadow-xl p-4">
           <img
             src={konferensiya}
             alt="sertificate"
@@ -84,7 +90,7 @@ function News() {
             Ko'proq o'qish
           </a>
         </div>
-        <div className="w-[30%]">
+        <div className="md:w-[30%] w-full shadow-xl p-4">
           <img
             src={male}
             alt="sertificate"
