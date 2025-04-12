@@ -13,3 +13,13 @@ export { default as sertificate } from "./tekgrupsaglik_zertifikate_25-1-212x300
 export { default as konferensiya } from "./Konferensiya-789-300x225.jpg";
 export { default as male } from "./male-pharmacist-selling-medications-at-drugstore-to-a-senior-woman-customer-300x200.jpg";
 export { default as trening } from "./trening-1-300x225.jpg";
+export { default as drug } from "./drug-600x600.jpg";
+export { default as cosmetic } from "./cosmetic-600x600.jpg";
+export { default as buyum } from "./buyum-600x600.jpg";
+export { default as Carplatu } from "./Carplatu-150-1-768x768.png";
+export { default as about1 } from "./top-view-of-various-medical-pills-and-instruments-on-green-background.jpg";
+export { default as tekgrup } from "./tekgruuuuup.jpg";
+export { default as birikki } from "./123456-1-2048x1237.jpg";
+export { default as sertifikat1 } from "./sertifikat-1.png";
+export { default as sertifikat2 } from "./ISO-9001.png";
+export { default as sertifikat3 } from "./2.jpg";

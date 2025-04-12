@@ -35,12 +35,12 @@ function News() {
             tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
             yuqori
           </p>
-          <a
-            href="#"
+          <NavLink
+            to="/news/item/1"
             className="hover:text-[#009F7F] transition-all duration-400 font-medium"
           >
             Ko'proq o'qish
-          </a>
+          </NavLink>
         </div>
         <div className="md:w-[30%] w-full shadow-xl p-4" id="2">
           <img
@@ -83,12 +83,12 @@ function News() {
             tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
             yuqori
           </p>
-          <a
-            href="#"
+          <NavLink
+            to="/news/item/3"
             className="hover:text-[#009F7F] transition-all duration-400 font-medium"
           >
             Ko'proq o'qish
-          </a>
+          </NavLink>
         </div>
         <div className="md:w-[30%] w-full shadow-xl p-4">
           <img
@@ -107,12 +107,12 @@ function News() {
             tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
             yuqori
           </p>
-          <a
-            href="#"
+          <NavLink
+            to="/news/item/4"
             className="hover:text-[#009F7F] transition-all duration-400 font-medium"
           >
             Ko'proq o'qish
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

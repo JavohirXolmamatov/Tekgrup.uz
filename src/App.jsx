@@ -5,6 +5,7 @@ import {
   Footer,
   Header,
   ItemNews,
+  ItemProduct,
   Main,
   News,
   Products,
@@ -13,9 +14,6 @@ import { useEffect } from "react";
 import Aos from "aos";
 
 function App() {
-  const location = useLocation();
-  console.log(location);
-
   useEffect(() => {
     Aos.init();
   }, []);
@@ -50,6 +48,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/news/item/:id" element={<ItemNews />} />
         <Route path="/product" element={<Products />} />
+        <Route path="/product/item/:id" element={<ItemProduct />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
