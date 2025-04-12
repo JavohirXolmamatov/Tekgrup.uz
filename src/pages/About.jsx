@@ -14,25 +14,31 @@ function About() {
         <img
           src={about1}
           alt="about1"
-          className="w-full h-[350px] object-cover"
+          className="w-full md:h-[350px] object-cover"
         />
         <div className="absolute top-0 left-0 right-0 w-full h-full flex flex-col gap-5 justify-center items-center bg-black/30">
-          <h1 data-aos="fade-up" className="text-6xl font-bold text-white">
+          <h1
+            data-aos="fade-up"
+            className="md:text-6xl text-3xl font-bold text-white"
+          >
             Biz haqimizda
           </h1>
-          <p data-aos="fade-down" className="text-3xl text-white font-medium">
+          <p
+            data-aos="fade-down"
+            className="md:text-3xl text-xl text-white font-medium"
+          >
             Sog‘lom dunyo uchun harakat qilamiz!
           </p>
         </div>
       </section>
 
       <section className="w-full">
-        <div className="w-8/10 mx-auto my-30 flex gap-5 justify-between items-center align-middle">
-          <div className="w-1/2 pr-5">
+        <div className="md:w-8/10 w-9/10 mx-auto md:my-30 my-5 flex md:flex-row flex-col gap-5 justify-between items-center align-middle">
+          <div className="md:w-1/2 w-full pr-5">
             <span className="text-md font-medium uppercase text-blue-300">
               Biz kimmiz?
             </span>
-            <h1 className="text-5xl font-bold text-black/90 mt-5">
+            <h1 className="md:text-5xl text-3xl font-bold text-black/90 mt-5">
               Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni
               ham kashf eting.
             </h1>
@@ -53,7 +59,7 @@ function About() {
               oshirib bormoqda.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 w-full">
             <img
               src={tekgrup}
               alt="tekgrup"
@@ -69,7 +75,7 @@ function About() {
           alt="birikki"
           className="w-full md:h-[550px] h-[400px] object-cover"
         />
-        <div className="absolute w-full md:h-[550px] h-[400px] top-0 left-0 right-0 bg-black/30 flex flex-col items-center justify-center align-middle gap-y-6">
+        <div className="absolute w-full md:h-[550px] h-[400px] top-0 left-0 right-0 bg-black/50 flex flex-col items-center justify-center align-middle gap-y-6">
           <h1
             data-aos="zoom-in"
             className="md:text-5xl text-3xl text-center font-bold md:w-[55%] md:leading-16 text-white"
@@ -78,7 +84,7 @@ function About() {
           </h1>
           <p
             data-aos="zoom-in"
-            className="text-white/90 text-lg text-center w-2/4"
+            className="text-white/90 text-lg text-center md:w-2/4 w-full"
           >
             Tek Grup Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika va
             gigiena mahsulotlari bo‘yicha keng assortimentni taqdim etadi.
@@ -113,7 +119,7 @@ function About() {
               data-aos-easing="ease-in-sine"
               className="md:w-2/4 w-full"
             >
-              <h1 className="text-5xl font-medium mt-3 md:text-start text-center">
+              <h1 className="md:text-5xl text-3xl font-medium mt-3 md:text-start text-center">
                 « Tek Grup Saglik Hizmetleri » XK MCHJ tomonidan taqdim
                 etiladigan xizmatlar
               </h1>
@@ -124,7 +130,7 @@ function About() {
                 data-aos="fade-left"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
-                className="bg-white py-10 px-20 text-2xl font-medium
+                className="bg-white md:py-10 py-5 md:px-20 px-5 md:text-2xl text-xl font-medium
                 text-black/40 shadow-xl rounded-xl hover:scale-103
                 transition-transform transform duration-300"
               >
@@ -135,7 +141,7 @@ function About() {
                 data-aos="fade-left"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
-                className="bg-white py-10 px-20 text-2xl font-medium text-black/40 shadow-xl rounded-xl hover:scale-103 transition-transform transform duration-300"
+                className="bg-white md:py-10 py-5 md:px-20 px-5 md:text-2xl text-xl font-medium text-black/40 shadow-xl rounded-xl hover:scale-103 transition-transform transform duration-300"
               >
                 Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika va gigiena
                 mahsulotlarini marketing va realizatsiya qilish;
@@ -151,10 +157,10 @@ function About() {
           alt="bg1"
           className="w-full md:h-[850px] h-[500px] object-cover"
         />
-        <div className="absolute w-full md:h-[850px] top-0 left-0 right-0 bg-green-800/70 flex flex-col items-center justify-center align-middle gap-y-6">
+        <div className="absolute w-full md:h-[850px] h-[500px] top-0 left-0 right-0 bg-green-800/70 flex flex-col items-center justify-center align-middle gap-y-6">
           <h1
             data-aos="zoom-in"
-            className="text-6xl text-center font-bold md:w-[50%] leading-16 text-white"
+            className="md:text-6xl text-4xl text-center font-bold md:w-[50%] md:leading-16 text-white"
           >
             Bizning Sertifikatlarimiz
           </h1>

@@ -51,39 +51,45 @@ function Contact() {
           alt="message1"
           className="w-full h-[350px] object-cover"
         />
-        <div className="absolute top-0 left-0 right-0 w-full h-full flex flex-col gap-5 justify-center items-center bg-black/30">
-          <h1 data-aos="fade-up" className="text-6xl font-bold text-white">
+        <div className="absolute top-0 left-0 right-0 w-full h-full flex flex-col gap-5 justify-center align-middle text-center items-center bg-black/30">
+          <h1
+            data-aos="fade-up"
+            className="md:text-6xl text-4xl font-bold text-white"
+          >
             Biz bilan bog'laning
           </h1>
-          <p data-aos="fade-down" className="text-3xl text-white font-medium">
+          <p
+            data-aos="fade-down"
+            className="md:text-3xl text-xl text-white font-medium"
+          >
             Bizning xizmatlar sizga qiziqmi? Biz bilan bog'laning!
           </p>
         </div>
       </section>
 
       <section className="w-full mb-15">
-        <div className="w-9/10 mx-auto flex flex-row justify-center items-center gap-5 my-20">
-          <div className="w-1/2 rounded-2xl shadow-2xl bg-white p-14 h-[600px]">
+        <div className="w-9/10 mx-auto flex md:flex-row flex-col justify-center items-center gap-5 my-20">
+          <div className="md:w-1/2 w-full rounded-2xl shadow-2xl bg-white md:p-14 p-3 md:h-[600px]">
             <span className="text-md font-medium uppercase text-[#1BA98D]">
               Biz bilan Bog'laning
             </span>
-            <h1 className="text-5xl font-bold text-black/80 my-5 mb-8">
+            <h1 className="md:text-5xl text-3xl font-bold text-black/80 my-5 mb-8">
               Hoziroq bog'laning
             </h1>
             <hr className="text-black/30 mb-8" />
-            <div className="my-4 flex gap-5">
-              <div className="rounded-full bg-[#D4F8C4] h-[50px] w-[50px]"></div>
+            <div className="my-4 flex md:gap-5 gap-2">
+              <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
-                <h1 className="text-xl font-bold text-black/50">
+                <h1 className="text-md font-bold text-black/50">
                   Kadrlar bo'limi
                 </h1>
                 <p className="text-black/50">hr.uz@tekgrup.net</p>
               </div>
             </div>
-            <div className="my-4 flex gap-5">
-              <div className="rounded-full bg-[#D4F8C4] h-[50px] w-[50px]"></div>
+            <div className="my-4 flex md:gap-5 gap-2">
+              <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
-                <h1 className="text-xl font-bold text-black/50">
+                <h1 className="text-md font-bold text-black/50">
                   Sotuv bo'limi
                 </h1>
                 <p className="text-black/50">
@@ -91,10 +97,10 @@ function Contact() {
                 </p>
               </div>
             </div>
-            <div className="my-4 flex gap-5">
-              <div className="rounded-full bg-[#D4F8C4] h-[50px] w-[50px]"></div>
+            <div className="my-4 flex md:gap-5 gap-2">
+              <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
-                <h1 className="text-xl font-bold text-black/50">
+                <h1 className="text-md font-bold text-black/50">
                   Qo'shimcha ma'lumot uchun
                 </h1>
                 <p className="text-black/50">
@@ -103,8 +109,8 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="w-1/2 rounded-2xl shadow-2xl bg-white p-14 min-h-[600px]">
-            <h1 className="text-5xl font-bold text-black/80">
+          <div className="md:w-1/2 w-full rounded-2xl shadow-2xl bg-white md:p-14 p-5 md:min-h-[600px]">
+            <h1 className="md:text-5xl text-3xl font-bold text-black/80">
               Bizga xabar qoldiring
             </h1>
             <form onSubmit={handleSumit}>

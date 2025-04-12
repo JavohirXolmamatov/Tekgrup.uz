@@ -38,38 +38,38 @@ const SwiperSertificat = () => {
         }}
       >
         <SwiperSlide>
-          <div className="md:h-[500px] h-[200px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
+          <div className="md:h-[500px] h-[300px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
             <img
               src={sertifikat1}
               alt="sertifikat1"
-              className="w-[230px] h-[500px] object-cover"
+              className="md:w-[400px] w-[230px] md:h-[500px] h-[300px] object-cover"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="md:h-[500px] h-[200px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
+          <div className="md:h-[500px] h-[300px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
             <img
               src={sertifikat2}
               alt="sertifikat2"
-              className="w-[230px] h-[500px] object-cover"
+              className="md:w-[400px] w-[230px] md:h-[500px] h-[300px] object-cover"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="md:h-[500px] h-[200px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
+          <div className="md:h-[500px] h-[300px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
             <img
               src={sertifikat3}
               alt="sertifikat3"
-              className="w-[230px] h-[500px] object-cover"
+              className="md:w-[400px] w-[230px] md:h-[500px] h-[300px] object-cover"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="md:h-[500px] h-[200px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
+          <div className="md:h-[500px] h-[300px] md:w-[400px] w-full bg-white flex items-center justify-center align-middle">
             <img
               src={sertifikat1}
               alt="sertifikat1"
-              className="w-[230px] h-[500px] object-cover"
+              className="md:w-[400px] w-[230px] md:h-[500px] h-[300px] object-cover"
             />
           </div>
         </SwiperSlide>
