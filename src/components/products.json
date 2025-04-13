@@ -2,322 +2,142 @@
   "medicine": [
     {
       "id": 1,
-      "name": "Paracetamol",
-      "category": "Medicine",
+      "title": "Paracetamol 500mg",
+      "description": "Isitma va og‘riqqa qarshi dori",
+      "body": "Paracetamol bosh og‘rig‘i, mushak og‘rig‘i va isitmani kamaytirishda keng qo‘llaniladi. Har kuni 2-3 marta iste'mol qilinadi.",
       "price": 12000,
-      "image": "paracetamol.jpg"
+      "category": "medicine",
+      "img": "https://pharmaclick.uz/upload/iblock/4b7/gvhhd4n48ivis5t4bzgvzdzquwz7toox.jpg"
     },
     {
       "id": 2,
-      "name": "Ibuprofen",
-      "category": "Medicine",
+      "title": "Ibuprofen 200mg",
+      "description": "Yallig‘lanishga qarshi",
+      "body": "Ibuprofen og‘riqni kamaytiradi va yallig‘lanishni oldini oladi. Bo‘g‘im og‘rig‘i va isitmada samarali.",
       "price": 15000,
-      "image": "ibuprofen.jpg"
+      "category": "medicine",
+      "img": "https://borimed.com/sites/default/files/product/%D0%98%D0%B1%D1%83%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D0%BD-200-new.jpg"
     },
     {
       "id": 3,
-      "name": "Amoxicillin",
-      "category": "Medicine",
-      "price": 20000,
-      "image": "amoxicillin.jpg"
+      "title": "No-Spa 40mg",
+      "description": "Spazmlarga qarshi",
+      "body": "No-Spa ichki og‘riqlar, ayniqsa, oshqozon va hayz davridagi og‘riqlarga qarshi ishlatiladi.",
+      "price": 10000,
+      "category": "medicine",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5Zm-IsAxWBrzEip8sJ59105oOtMnFPaFjg&s"
     },
     {
       "id": 4,
-      "name": "Aspirin",
-      "category": "Medicine",
-      "price": 13000,
-      "image": "aspirin.jpg"
+      "title": "Amoxicillin 500mg",
+      "description": "Bakteriyalarga qarshi antibiotik",
+      "body": "Amoxicillin ko‘plab infektsiyalarga, jumladan, nafas yo‘llari va siydik yo‘llariga qarshi samarali antibiotik hisoblanadi.",
+      "price": 18000,
+      "category": "medicine",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLTYBsDZCVqpLrFPZ3cbim8qvgOQVAKl5ew&s"
     },
     {
       "id": 5,
-      "name": "Ciprofloxacin",
-      "category": "Medicine",
-      "price": 25000,
-      "image": "cipro.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Azithromycin",
-      "category": "Medicine",
-      "price": 22000,
-      "image": "azithro.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Vitamin C",
-      "category": "Medicine",
-      "price": 10000,
-      "image": "vitamin-c.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Naproxen",
-      "category": "Medicine",
-      "price": 17000,
-      "image": "naproxen.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Diclofenac",
-      "category": "Medicine",
-      "price": 14500,
-      "image": "diclo.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Tramadol",
-      "category": "Medicine",
-      "price": 18000,
-      "image": "tramadol.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Codeine",
-      "category": "Medicine",
-      "price": 20000,
-      "image": "codeine.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Iron Tablets",
-      "category": "Medicine",
-      "price": 9000,
-      "image": "iron.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Zinc",
-      "category": "Medicine",
-      "price": 11000,
-      "image": "zinc.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Magnesium",
-      "category": "Medicine",
-      "price": 10500,
-      "image": "magnesium.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Calcium",
-      "category": "Medicine",
-      "price": 9500,
-      "image": "calcium.jpg"
+      "title": "Analgin 500mg",
+      "description": "Og‘riqni kamaytiruvchi",
+      "body": "Analgin turli turdagi og‘riqlarni yengillashtiradi: bosh og‘rig‘i, tish og‘rig‘i va mushak og‘rig‘i.",
+      "price": 8000,
+      "category": "medicine",
+      "img": "https://liki.uz/content/shop/products/17560/analgin-dalhimfarm-rastvor-d-in-500-mg-ml-po-2-ml-10-ampulyi-dalhimfarm-prod-400x400-c5e7.jpg"
     }
   ],
   "cosmetic": [
     {
       "id": 1,
-      "name": "Moisturizer Cream",
-      "category": "Cosmetic",
+      "title": "Nivea Soft Cream 100ml",
+      "description": "Namlik beruvchi krem",
+      "body": "Nivea Soft Cream terini chuqur namlaydi va kun bo‘yi yumshoqlikni ta'minlaydi. Har qanday teri turiga mos.",
       "price": 25000,
-      "image": "moisturizer.jpg"
+      "category": "cosmetic",
+      "img": "https://images-cdn.ubuy.co.in/664b821afdacf60b562e187f-nivea-soft-light-moistirising-cream.jpg"
     },
     {
       "id": 2,
-      "name": "Face Wash",
-      "category": "Cosmetic",
-      "price": 18000,
-      "image": "face-wash.jpg"
+      "title": "L'Oreal Face Wash",
+      "description": "Yuzni tozalovchi gel",
+      "body": "L'Oreal yuzni chuqur tozalaydi va yog‘li dog‘lardan xalos qiladi. Har kuni ertalab va kechqurun ishlatiladi.",
+      "price": 32000,
+      "category": "cosmetic",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIJsYM08XY1vyp4esQbmEYzU3uJcpRR0Zgg&s"
     },
     {
       "id": 3,
-      "name": "Sunscreen SPF 50",
-      "category": "Cosmetic",
-      "price": 27000,
-      "image": "sunscreen.jpg"
+      "title": "Garnier Micellar Water 400ml",
+      "description": "Kosmetika tozalovchi suyuqlik",
+      "body": "Garnier micellar suvi terini tozalaydi, ko‘z va labdagi bo‘yoqlarni ham muloyimlik bilan olib tashlaydi.",
+      "price": 28000,
+      "category": "cosmetic",
+      "img": "https://i.makeupstore.uz/o/ox/oxyh09gs34hq.jpg"
     },
     {
       "id": 4,
-      "name": "Lip Balm",
-      "category": "Cosmetic",
-      "price": 12000,
-      "image": "lip-balm.jpg"
+      "title": "Maybelline Mascara",
+      "description": "Tuzatiluvchi kiprik bo‘yog‘i",
+      "body": "Maybelline kipriklarni uzaytiradi va ko‘zni yanada jozibali ko‘rsatadi. Kundalik makiyaj uchun ideal.",
+      "price": 45000,
+      "category": "cosmetic",
+      "img": "https://cdn.bloombeauty.uz/products/cccf5ba44bf2d28dadc311f2a9fe8cae.jpeg"
     },
     {
       "id": 5,
-      "name": "Makeup Remover",
-      "category": "Cosmetic",
-      "price": 20000,
-      "image": "remover.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Foundation",
-      "category": "Cosmetic",
-      "price": 35000,
-      "image": "foundation.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Compact Powder",
-      "category": "Cosmetic",
-      "price": 30000,
-      "image": "compact.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Blush",
-      "category": "Cosmetic",
-      "price": 28000,
-      "image": "blush.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Eyeliner",
-      "category": "Cosmetic",
-      "price": 15000,
-      "image": "eyeliner.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Mascara",
-      "category": "Cosmetic",
-      "price": 22000,
-      "image": "mascara.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Lipstick",
-      "category": "Cosmetic",
-      "price": 26000,
-      "image": "lipstick.jpg"
-    },
-    {
-      "id": 12,
-      "name": "BB Cream",
-      "category": "Cosmetic",
-      "price": 24000,
-      "image": "bb-cream.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Toner",
-      "category": "Cosmetic",
-      "price": 19000,
-      "image": "toner.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Serum",
-      "category": "Cosmetic",
-      "price": 31000,
-      "image": "serum.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Facial Mask",
-      "category": "Cosmetic",
+      "title": "Vaseline Lip Therapy",
+      "description": "Lablar uchun balzam",
+      "body": "Quruq va yorilgan lablarni davolaydi. Kun davomida namlikni saqlaydi va yorilishni oldini oladi.",
       "price": 17000,
-      "image": "mask.jpg"
+      "category": "cosmetic",
+      "img": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/vsl/vsl75000/l/23.jpg"
     }
   ],
   "medical": [
     {
       "id": 1,
-      "name": "Surgical Mask",
-      "category": "Medical",
-      "price": 3000,
-      "image": "mask.jpg"
+      "title": "Digital Thermometer",
+      "description": "Elektron termometr",
+      "body": "Haroratni tez va aniq o‘lchaydi. Bolalar va kattalar uchun mos. 10 soniyada natija beradi.",
+      "price": 40000,
+      "category": "medical",
+      "img": "https://drtrust.in/cdn/shop/products/30279959707694_1024x1024.jpg?v=1682057417"
     },
     {
       "id": 2,
-      "name": "Gloves",
-      "category": "Medical",
-      "price": 7000,
-      "image": "gloves.jpg"
+      "title": "Blood Pressure Monitor",
+      "description": "Qon bosimini o‘lchagich",
+      "body": "Avtomatik bosim o‘lchagich yurak urishini ham ko‘rsatadi. Uy sharoitida foydalanish uchun qulay.",
+      "price": 220000,
+      "category": "medical",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06cjDabjNC-dR2f-Dm6v7uHYcGoXcgEM5TA&s"
     },
     {
       "id": 3,
-      "name": "Thermometer",
-      "category": "Medical",
-      "price": 45000,
-      "image": "thermometer.jpg"
+      "title": "First Aid Kit",
+      "description": "Dastlabki tibbiy yordam qutisi",
+      "body": "Kichik jarohatlar, kuyish va qoni to‘xtatish uchun kerakli barcha vositalarni o‘z ichiga oladi.",
+      "price": 95000,
+      "category": "medical",
+      "img": "https://i.makeupstore.uz/6/66/66487xpuzhjc.jpg"
     },
     {
       "id": 4,
-      "name": "Digital BP Monitor",
-      "category": "Medical",
-      "price": 160000,
-      "image": "bp.jpg"
+      "title": "Surgical Mask (50pcs)",
+      "description": "Tibbiy niqoblar to‘plami",
+      "body": "Bir martalik tibbiy niqoblar bakteriyalardan himoya qiladi. 3 qavatli himoya bilan ta'minlangan.",
+      "price": 35000,
+      "category": "medical",
+      "img": "https://amsp.africa/all_media/2022/07/PPE-3-Ply-Mask.jpeg"
     },
     {
       "id": 5,
-      "name": "Stethoscope",
-      "category": "Medical",
-      "price": 80000,
-      "image": "stethoscope.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Hand Sanitizer",
-      "category": "Medical",
-      "price": 9000,
-      "image": "sanitizer.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Oximeter",
-      "category": "Medical",
-      "price": 60000,
-      "image": "oximeter.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Bandage",
-      "category": "Medical",
-      "price": 4000,
-      "image": "bandage.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Alcohol Swabs",
-      "category": "Medical",
-      "price": 5000,
-      "image": "swab.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Syringe",
-      "category": "Medical",
-      "price": 2500,
-      "image": "syringe.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Medical Tape",
-      "category": "Medical",
-      "price": 5500,
-      "image": "tape.jpg"
-    },
-    {
-      "id": 12,
-      "name": "First Aid Kit",
-      "category": "Medical",
-      "price": 95000,
-      "image": "aid-kit.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Oxygen Cylinder",
-      "category": "Medical",
-      "price": 350000,
-      "image": "oxygen.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Nebulizer",
-      "category": "Medical",
+      "title": "Pulse Oximeter",
+      "description": "Qon kislorodini o‘lchagich",
+      "body": "Nafas yetishmovchiligi bo‘lganlar uchun foydali. Barmoq orqali kislorod miqdorini o‘lchaydi.",
       "price": 130000,
-      "image": "nebulizer.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Face Shield",
-      "category": "Medical",
-      "price": 15000,
-      "image": "face-shield.jpg"
+      "category": "medical",
+      "img": "https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,g_faces:auto,h_960,q_auto,w_1280/v1/yms/prod/9f962a05-1975-4361-8f63-ce3eaf7610c0"
     }
   ]
 }

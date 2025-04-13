@@ -35,7 +35,7 @@ function Header() {
             </div>
 
             {/* desctop menu */}
-            <ul className="hidden md:flex gap-x-8 text-md font-medium ">
+            <ul className="hidden md:flex gap-x-8 text-xl font-medium ">
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to={"/"} className={getLinkClass}>
                   Main

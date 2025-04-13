@@ -37,13 +37,6 @@ function ItemProduct() {
   return (
     <div className="w-full h-auto py-20 ">
       <div className="w-8/10 mx-auto flex flex-row gap-5 items-center justify-end mb-10">
-        {/* <input
-          type="text"
-          placeholder="Qidirish..."
-          className="p-2 border rounded-md"
-          // value={query}
-          // onChange={(e) => setQuery(e.target.value)}
-        /> */}
         <select
           name=""
           id=""

@@ -9,6 +9,7 @@ import {
   Main,
   News,
   Products,
+  ProductTitle,
 } from "./pages";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -49,6 +50,10 @@ function App() {
         <Route path="/news/item/:id" element={<ItemNews />} />
         <Route path="/product" element={<Products />} />
         <Route path="/product/item/:id" element={<ItemProduct />} />
+        <Route
+          path="/product/item/:category/:productId"
+          element={<ProductTitle />}
+        />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

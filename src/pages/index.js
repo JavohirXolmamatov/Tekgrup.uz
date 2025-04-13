@@ -4,6 +4,7 @@ export { default as News } from "./News";
 export { default as ItemNews } from "./ItemNews";
 export { default as Products } from "./Products";
 export { default as ItemProduct } from "./ItemProduct";
+export { default as ProductTitle } from "./ProductTitle";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";

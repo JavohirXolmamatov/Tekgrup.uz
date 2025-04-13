@@ -10,21 +10,20 @@ function ItemProductCard({ item, price }) {
       id={item.id}
     >
       <img
-        src={Carplatu}
+        src={item.img}
         alt="drug"
         className="h-[400px] w-full rounded-2xl object-cover"
       />
       <div className="absolute top-0 left-0 right-0 bg-black/30 h-full w-full"></div>
       <div className="absolute bottom-3 w-full h-auto px-10 flex flex-col gap-2 items-center justify-between">
         <div className="flex items-center align-middle justify-center gap-8 w-full">
-          <h1 className=" text-center text-xl font-bold text-black/70">
-            {item.name}
+          <h1 className=" text-center text-3xl font-bold text-white">
+            {item.title}
           </h1>
-          <span className="text-sm text-black/70 font-bold">{price} So'm</span>
         </div>
         <NavLink
-          to="/"
-          className="text-white text-md font-bold bg-green-500 py-1 px-6 rounded-md hover:scale-[105%] transition-transform transform duration-300"
+          to={`${item.id}`}
+          className="text-white text-xl font-bold bg-green-500 py-2 px-6 rounded-md hover:scale-[105%] transition-transform transform duration-300"
         >
           Batafsil
         </NavLink>
