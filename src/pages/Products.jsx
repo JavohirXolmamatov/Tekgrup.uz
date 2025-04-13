@@ -1,12 +1,15 @@
 import React from "react";
 import { buyum, cosmetic, drug } from "../assets";
 import { NavLink } from "react-router";
+import product from "../components/products.json";
 
 function Products() {
+  const handleMedicine = (e) => {};
+
   return (
     <div className="w-full py-20 ">
       <div className="flex w-9/10 md:flex-row flex-col  mx-auto items-center justify-between gap-10">
-        <NavLink to={"item/1"}>
+        <NavLink to={"item/medicine"} onClick={handleMedicine}>
           <div className="shadow-2xl rounded-2xl overflow-hidden relative group">
             <img
               src={drug}
@@ -18,7 +21,7 @@ function Products() {
             </div>
           </div>
         </NavLink>
-        <NavLink to={"item/2"}>
+        <NavLink to={"item/cosmetic"}>
           <div className="shadow-2xl rounded-2xl overflow-hidden relative group">
             <img
               src={cosmetic}
@@ -30,7 +33,7 @@ function Products() {
             </div>
           </div>
         </NavLink>
-        <NavLink to={"item/3"}>
+        <NavLink to={"item/medical"}>
           <div className="shadow-2xl rounded-2xl overflow-hidden relative group">
             <img
               src={buyum}

@@ -1,0 +1,323 @@
+{
+  "medicine": [
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "category": "Medicine",
+      "price": 12000,
+      "image": "paracetamol.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "category": "Medicine",
+      "price": 15000,
+      "image": "ibuprofen.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin",
+      "category": "Medicine",
+      "price": 20000,
+      "image": "amoxicillin.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Aspirin",
+      "category": "Medicine",
+      "price": 13000,
+      "image": "aspirin.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ciprofloxacin",
+      "category": "Medicine",
+      "price": 25000,
+      "image": "cipro.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Azithromycin",
+      "category": "Medicine",
+      "price": 22000,
+      "image": "azithro.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vitamin C",
+      "category": "Medicine",
+      "price": 10000,
+      "image": "vitamin-c.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Naproxen",
+      "category": "Medicine",
+      "price": 17000,
+      "image": "naproxen.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Diclofenac",
+      "category": "Medicine",
+      "price": 14500,
+      "image": "diclo.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Tramadol",
+      "category": "Medicine",
+      "price": 18000,
+      "image": "tramadol.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Codeine",
+      "category": "Medicine",
+      "price": 20000,
+      "image": "codeine.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Iron Tablets",
+      "category": "Medicine",
+      "price": 9000,
+      "image": "iron.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Zinc",
+      "category": "Medicine",
+      "price": 11000,
+      "image": "zinc.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Magnesium",
+      "category": "Medicine",
+      "price": 10500,
+      "image": "magnesium.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Calcium",
+      "category": "Medicine",
+      "price": 9500,
+      "image": "calcium.jpg"
+    }
+  ],
+  "cosmetic": [
+    {
+      "id": 1,
+      "name": "Moisturizer Cream",
+      "category": "Cosmetic",
+      "price": 25000,
+      "image": "moisturizer.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Face Wash",
+      "category": "Cosmetic",
+      "price": 18000,
+      "image": "face-wash.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sunscreen SPF 50",
+      "category": "Cosmetic",
+      "price": 27000,
+      "image": "sunscreen.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lip Balm",
+      "category": "Cosmetic",
+      "price": 12000,
+      "image": "lip-balm.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Makeup Remover",
+      "category": "Cosmetic",
+      "price": 20000,
+      "image": "remover.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Foundation",
+      "category": "Cosmetic",
+      "price": 35000,
+      "image": "foundation.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Compact Powder",
+      "category": "Cosmetic",
+      "price": 30000,
+      "image": "compact.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Blush",
+      "category": "Cosmetic",
+      "price": 28000,
+      "image": "blush.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Eyeliner",
+      "category": "Cosmetic",
+      "price": 15000,
+      "image": "eyeliner.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Mascara",
+      "category": "Cosmetic",
+      "price": 22000,
+      "image": "mascara.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Lipstick",
+      "category": "Cosmetic",
+      "price": 26000,
+      "image": "lipstick.jpg"
+    },
+    {
+      "id": 12,
+      "name": "BB Cream",
+      "category": "Cosmetic",
+      "price": 24000,
+      "image": "bb-cream.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Toner",
+      "category": "Cosmetic",
+      "price": 19000,
+      "image": "toner.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Serum",
+      "category": "Cosmetic",
+      "price": 31000,
+      "image": "serum.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Facial Mask",
+      "category": "Cosmetic",
+      "price": 17000,
+      "image": "mask.jpg"
+    }
+  ],
+  "medical": [
+    {
+      "id": 1,
+      "name": "Surgical Mask",
+      "category": "Medical",
+      "price": 3000,
+      "image": "mask.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gloves",
+      "category": "Medical",
+      "price": 7000,
+      "image": "gloves.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Thermometer",
+      "category": "Medical",
+      "price": 45000,
+      "image": "thermometer.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Digital BP Monitor",
+      "category": "Medical",
+      "price": 160000,
+      "image": "bp.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Stethoscope",
+      "category": "Medical",
+      "price": 80000,
+      "image": "stethoscope.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Hand Sanitizer",
+      "category": "Medical",
+      "price": 9000,
+      "image": "sanitizer.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Oximeter",
+      "category": "Medical",
+      "price": 60000,
+      "image": "oximeter.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Bandage",
+      "category": "Medical",
+      "price": 4000,
+      "image": "bandage.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Alcohol Swabs",
+      "category": "Medical",
+      "price": 5000,
+      "image": "swab.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Syringe",
+      "category": "Medical",
+      "price": 2500,
+      "image": "syringe.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Medical Tape",
+      "category": "Medical",
+      "price": 5500,
+      "image": "tape.jpg"
+    },
+    {
+      "id": 12,
+      "name": "First Aid Kit",
+      "category": "Medical",
+      "price": 95000,
+      "image": "aid-kit.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Oxygen Cylinder",
+      "category": "Medical",
+      "price": 350000,
+      "image": "oxygen.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Nebulizer",
+      "category": "Medical",
+      "price": 130000,
+      "image": "nebulizer.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Face Shield",
+      "category": "Medical",
+      "price": 15000,
+      "image": "face-shield.jpg"
+    }
+  ]
+}
