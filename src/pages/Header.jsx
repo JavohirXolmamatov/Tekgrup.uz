@@ -22,7 +22,7 @@ function Header() {
       <div className="w-full bg-blue-500/5">
         <div className="py-3 w-9/10 mx-auto flex flex-row items-center justify-between">
           <img
-            src="/public/TEK-GRUP_logo-2.png"
+            src="/src/assets/TEK-GRUP_logo-2.png"
             alt="/public/TEK-GRUP_logo-2.png"
             className="h-[100px] w-[200px]"
           />
