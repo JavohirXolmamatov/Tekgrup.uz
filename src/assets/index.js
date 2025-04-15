@@ -23,3 +23,4 @@ export { default as birikki } from "./123456-1-2048x1237.jpg";
 export { default as sertifikat1 } from "./sertifikat-1.png";
 export { default as sertifikat2 } from "./ISO-9001.png";
 export { default as sertifikat3 } from "./2.jpg";
+export { default as logo } from "./TEK-GRUP_logo-2.png";

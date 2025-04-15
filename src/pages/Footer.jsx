@@ -1,6 +1,7 @@
 import React from "react";
 import { Map } from "../components";
 import { useTranslation } from "react-i18next";
+import { logo } from "../assets";
 
 function Footer() {
   const { t } = useTranslation();
@@ -8,11 +9,7 @@ function Footer() {
     <div className="w-full">
       <div className="flex md:flex-row flex-col w-9/10 mx-auto gap-10 text-black/50">
         <div className="md:w-1/4 w-full">
-          <img
-            src="/public/TEK-GRUP_logo-2.png"
-            alt="logo"
-            className="w-[250px]"
-          />
+          <img src={logo} alt="logo" className="w-[250px]" />
           <span className="text-md font-bold block pt-2">
             {t("footer.company_name")}
           </span>

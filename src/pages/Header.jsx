@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router";
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { logo } from "../assets";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ function Header() {
       <div className="w-full bg-blue-500/5">
         <div className="py-3 w-9/10 mx-auto flex flex-row items-center justify-between">
           <img
-            src="/src/assets/TEK-GRUP_logo-2.png"
+            src={logo}
             alt="/public/TEK-GRUP_logo-2.png"
             className="h-[100px] w-[200px]"
           />

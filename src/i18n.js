@@ -23,7 +23,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: "uz", // agar aniqlanmasa, uz tiliga tushadi
+    fallbackLng: "en", // agar aniqlanmasa, uz tiliga tushadi
     interpolation: {
       escapeValue: false, // React uchun kerak emas
     },
