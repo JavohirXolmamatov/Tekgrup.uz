@@ -1,0 +1,135 @@
+{
+  "header": {
+    "main": "Main",
+    "news": "News",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "main": {
+    "hero": {
+      "badge": "Welcome to TeKgrup",
+      "title": "We strive for a healthy world!",
+      "description": "With us, discover not just medicines, but a wide range of services.",
+      "button": "Learn More"
+    },
+    "stats": {
+      "years": "years",
+      "in_market": "Years of successful operation",
+      "in_market1": "Exclusive medicines",
+      "in_market2": "Employees",
+      "in_market3": "Warehouses complying with GDP standards",
+      "in_market4": "Regular clients",
+      "in_market5": "Total warehouse area",
+      "kv": "sq.m"
+    },
+    "distribution": {
+      "title": "One of the leading distributors in the pharmaceutical industry",
+      "description": "Top services for top clients.",
+      "button": "Contact Us"
+    },
+    "why_choose_us": {
+      "heading": "Why Choose Us",
+      "title": "Top services for top clients.",
+      "qualities": ["Reliability", "High-level security", "Time-tested quality"]
+    },
+    "partners": {
+      "title": "Our Partners",
+      "description": "Our partners are satisfied because we offer the best, safest, and most reliable services."
+    },
+    "choose_us": {
+      "title": "Why Choose Us",
+      "subtitle": "The best services for the best clients.",
+      "points": ["Reliability", "High-level security", "Time-tested quality"]
+    }
+  },
+  "news": {
+    "title": "News",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Tek Grup Sağlık Hizmetleri has obtained ISO 9001:2015 certification!",
+        "date": "March 13, 2025",
+        "description": "We are proud to announce that Tek Grup Sağlık Hizmetleri obtained ISO 9001:2015 quality management system certification in February 2025. This certificate proves our high",
+        "button": "Read more"
+      },
+      {
+        "id": 2,
+        "title": "Tek Grup Sağlık Hizmetleri LLC FE",
+        "date": "August 5, 2024",
+        "description": "In July–August 2023, Tek Grup organized internal trainings. Partner companies presented their pharmaceutical products during the sessions.",
+        "button": "Read more"
+      },
+      {
+        "id": 3,
+        "title": "Highlights from the October 8, 2024 Conference",
+        "date": "March 13, 2025",
+        "description": "During the event, discussions were held about innovations in medicine and changes in the healthcare sector of our country.",
+        "button": "Read more"
+      },
+      {
+        "id": 4,
+        "title": "What does Tekgrup do?",
+        "date": "August 4, 2024",
+        "description": "Tek Grup Sağlık Hizmetleri LLC FE was founded in 2018. It is part of the internationally recognized TEKGRUP holding with over 10 years of experience.",
+        "button": "Read more"
+      }
+    ]
+  },
+  "products": {
+    "item1": "Medicinal products",
+    "item2": "Cosmetic products",
+    "item3": "Medical supplies",
+    "product_not_found": "Product not found...",
+    "section": "Category",
+    "description": "Description",
+    "usage": "Usage",
+    "price": "Price",
+    "similar_products": "Similar products",
+    "details": "Details",
+    "default_sort": "Default sorting",
+    "sort_by_popularity": "Sort by popularity",
+    "sort_price_low_to_high": "Price: Low to High",
+    "sort_price_high_to_low": "Price: High to Low"
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "We strive for a healthier world!",
+    "whoWeAre": "Who Are We?",
+    "whoWeAreTitle": "With us, you discover not only medicine but a wide range of services.",
+    "whoWeAreText": "Tek Grup Saglik Hizmetleri LLC was established in 2018 and is part of the internationally renowned TEKGRUP holding, with over 10 years of experience. It has been operating in the pharmaceutical distribution market of Uzbekistan since 2023.The company operates based on the principle of Fair Competition and continues to adhere to this policy in relation to all employees and stakeholders.The range of pharmaceutical products is expanding in line with technological advancements and the needs of the population.With a well-developed infrastructure and a team of innovative, creative professionals, they continuously enhance their professional knowledge and skills in the field of pharmaceuticals and healthcare.",
+    "whatWeDo": "What We Do?",
+    "whatWeDoText": "Tek Grup offers a wide range of pharmaceuticals, medical equipment, cosmetics, and hygiene products. Thanks to our excellent facilities and storage conditions, we deliver all products to our clients safely and reliably.",
+    "learnMore": "Learn More",
+    "ourServices": "What We Offer",
+    "servicesTitle": "Services provided by “Tek Grup Saglik Hizmetleri” Foreign LLC",
+    "service1": "Storage and delivery of pharmaceutical products.",
+    "service2": "Marketing and distribution of medicines, medical equipment, cosmetics and hygiene products;",
+    "certificatesTitle": "Our Certificates"
+  },
+  "contact": {
+    "contact_heading": "Contact Us",
+    "contact_subheading": "Interested in our services? Get in touch with us!",
+    "contact_title": "Contact us now",
+    "contact_form_title": "Leave us a message",
+    "department_hr": "HR Department",
+    "department_sales": "Sales Department",
+    "department_info": "For more information",
+    "form_first_name": "First Name",
+    "form_last_name": "Last Name",
+    "form_email": "Email Address",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "form_cancel": "Cancel",
+    "toast_success": "Message sent successfully!"
+  },
+  "footer": {
+    "company_name": "Tek Grup Health Services",
+    "contact_heading": "Contact Us",
+    "address": "Tashkent city, Bektemir district, Oltintopgan street, house 40",
+    "email": "info.uz@tekgrup.net",
+    "phone": "+998 55 515 04 15",
+    "map_alt_text": "Location on the map",
+    "rights_reserved": "© 2025 Tek Grup Health Services. All rights reserved."
+  }
+}

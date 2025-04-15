@@ -1,8 +1,10 @@
 import CountUp from "react-countup";
 import { bg1, bg2, medicine, onko, testimonial } from "../assets/index";
 import { Swipers } from "../components";
+import { useTranslation } from "react-i18next";
 
 function Main() {
+  const { t } = useTranslation();
   return (
     <div className="w-full mb-10">
       {/* 1 */}
@@ -17,24 +19,23 @@ function Main() {
             data-aos="zoom-in"
             className="uppercase bg-white py-2 px-6 rounded-2xl font-medium text-[#009F7F] tracking-widest"
           >
-            TeKgrupga xush kelibsiz
+            {t("main.hero.badge")}
           </span>
           <h1
             data-aos="zoom-in"
             className="md:text-6xl text-3xl text-center font-bold md:w-[50%] md:leading-16 text-white"
           >
-            Sog‘lom dunyo uchun harakat qilamiz!
+            {t("main.hero.title")}
           </h1>
           <p data-aos="zoom-in" className="text-white/90 text-lg text-center">
-            Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni
-            ham kashf eting.
+            {t("main.hero.description")}
           </p>
           <a
             data-aos="zoom-in"
             href="#"
             className="bg-white text-[#009F7F] text-lg hover:bg-white/90 font-medium py-3 px-8 rounded-lg"
           >
-            Ko'proq bilish
+            {t("main.hero.button")}
           </a>
         </div>
       </section>
@@ -48,59 +49,71 @@ function Main() {
           <div className="flex md:flex-row flex-col gap-5">
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
-                {<CountUp end={8} duration={2} />}+ yil
+                {<CountUp end={8} duration={2} />}+ {t("main.stats.years")}
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market")}
+              </span>
             </div>
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
                 {<CountUp end={10} duration={2} />}+
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market1")}
+              </span>
             </div>
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
                 {<CountUp end={30} duration={2} />}+
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market2")}
+              </span>
             </div>
           </div>
           <div className="flex md:flex-row flex-col gap-5">
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
                 {<CountUp end={15} duration={2} />}+
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market3")}
+              </span>
             </div>
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
                 {<CountUp end={200} duration={2} />}+
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market4")}
+              </span>
             </div>
             <div
               data-aos="zoom-in-down"
-              className="text-center md:w-1/3 w-full text-[#0C4DA2]"
+              className="text-center md:w-1/3 w-full md:h-auto h-[120px]  text-[#0C4DA2]"
             >
               <h1 className="md:text-5xl text-2xl font-bold pb-2">
                 {<CountUp end={2000} duration={1} />}kv
               </h1>
-              <span className="font-medium text-md">Bozorda mavjud</span>
+              <span className="font-medium text-md">
+                {t("main.stats.in_market5")}
+              </span>
             </div>
           </div>
         </div>
@@ -118,17 +131,17 @@ function Main() {
             data-aos="zoom-in"
             className="md:text-5xl text-3xl text-center font-bold md:w-[55%] md:leading-16 text-white"
           >
-            Farmasevtika industriyasida yetakchi distribyutorlardan birimiz
+            {t("main.distribution.title")}
           </h1>
           <p data-aos="zoom-in" className="text-white/90 text-lg">
-            Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.
+            {t("main.distribution.description")}
           </p>
           <a
             data-aos="zoom-in"
             href="#"
             className="bg-blue-500 text-white text-lg hover:bg-blue-500/80 font-medium py-3 px-8 rounded-lg"
           >
-            Bog'lanish
+            {t("main.distribution.button")}
           </a>
         </div>
       </section>
@@ -142,7 +155,7 @@ function Main() {
             data-aos-easing="ease-in-sine"
             className="uppercase text-[#009F7F] font-medium md:text-start text-center"
           >
-            Nega Bizni tanlashadi
+            {t("main.choose_us.title")}
           </h1>
           <div className="flex md:flex-row flex-col gap-x-5 items-center align-middle">
             <div
@@ -152,7 +165,7 @@ function Main() {
               className="md:w-2/4 w-full"
             >
               <h1 className="text-5xl font-medium mt-3 md:text-start text-center">
-                Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.
+                {t("main.choose_us.subtitle")}
               </h1>
               <img src={testimonial} alt="testimonial" />
             </div>
@@ -166,7 +179,7 @@ function Main() {
                 transition-transform transform duration-300"
               >
                 {" "}
-                Ishonchlilik
+                {t("main.choose_us.points.0")}
               </div>
               <div
                 data-aos="fade-left"
@@ -174,7 +187,7 @@ function Main() {
                 data-aos-easing="ease-in-sine"
                 className="bg-white py-10 px-20 text-2xl font-medium text-black/40 shadow-xl rounded-xl hover:scale-103 transition-transform transform duration-300"
               >
-                Yuqori darajada xavfsiz
+                {t("main.choose_us.points.1")}
               </div>
               <div
                 data-aos="fade-left"
@@ -182,7 +195,7 @@ function Main() {
                 data-aos-easing="ease-in-sine"
                 className="bg-white py-10 px-20 text-2xl font-medium text-black/40 shadow-xl rounded-xl hover:scale-103 transition-transform transform duration-300"
               >
-                Vaqt bilan sinalgan sifat
+                {t("main.choose_us.points.2")}
               </div>
             </div>
           </div>
@@ -201,14 +214,13 @@ function Main() {
             data-aos="zoom-in"
             className="text-6xl text-center font-bold md:w-[50%] leading-16 text-white"
           >
-            Bizning Hamkorlar
+            {t("main.partners.title")}
           </h1>
           <p
             data-aos="zoom-in"
             className="text-white/90 text-lg md:w-[50%] mx-auto text-center"
           >
-            Biz eng sifatli, xavfsiz va ishonchli xizmat ko’rsatganimiz uchun
-            hamkorlarimiz bizdan mamnunlar
+            {t("main.partners.description")}
           </p>
           <div className="w-8/10 mx-auto mt-5">{<Swipers />}</div>
         </div>

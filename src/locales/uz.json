@@ -1,0 +1,148 @@
+{
+  "header": {
+    "main": "Asosiy",
+    "news": "Yangiliklar",
+    "products": "Mahsulotlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "main": {
+    "hero": {
+      "badge": "TeKgrupga xush kelibsiz",
+      "title": "Sog‘lom dunyo uchun harakat qilamiz!",
+      "description": "Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni ham kashf eting.",
+      "button": "Ko'proq bilish"
+    },
+    "stats": {
+      "years": "yil",
+      "in_market": "Muvaffaqiyatli faoliyat",
+      "in_market1": "Eksklyuziv dori vositalari",
+      "in_market2": "Xodimlar",
+      "in_market3": "GDP standartlariga javob beruvchi omborlar",
+      "in_market4": "Doimiy mijozlar",
+      "in_market5": "Barcha omborlar umumiy maydoni",
+      "kv": "kv.m"
+    },
+    "distribution": {
+      "title": "Farmasevtika industriyasida yetakchi distribyutorlardan birimiz",
+      "description": "Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.",
+      "button": "Bog'lanish"
+    },
+    "why_choose_us": {
+      "heading": "Nega Bizni tanlashadi",
+      "title": "Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.",
+      "qualities": [
+        "Ishonchlilik",
+        "Yuqori darajada xavfsiz",
+        "Vaqt bilan sinalgan sifat"
+      ]
+    },
+    "partners": {
+      "title": "Bizning Hamkorlar",
+      "description": "Biz eng sifatli, xavfsiz va ishonchli xizmat ko’rsatganimiz uchun hamkorlarimiz bizdan mamnunlar"
+    },
+    "choose_us": {
+      "title": "Nega Bizni tanlashadi",
+      "subtitle": "Eng yaxshi mijozlar uchun eng yaxshi xizmatlar.",
+      "points": [
+        "Ishonchlilik",
+        "Yuqori darajada xavfsiz",
+        "Vaqt bilan sinalgan sifat"
+      ]
+    }
+  },
+  "news": {
+    "title": "Yangiliklar",
+    "cards": [
+      {
+        "id": 1,
+        "title": "«Tek Grup Sağlık Hizmetleri» ISO 9001:2015 Sertifikatini Qo‘lga Kiritdi!",
+        "date": "Mart 13, 2025",
+        "description": "Biz faxr bilan e’lon qilamiz: «Tek Grup Sağlık Hizmetleri» kompaniyasi 2025-yil fevral oyida ISO 9001:2015 sifat menejmenti tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning yuqori",
+        "button": "Ko'proq o'qish"
+      },
+      {
+        "id": 2,
+        "title": "«Tek Grup Saglik Hizmetleri» MCHJ XK",
+        "date": "Avgust 5, 2024",
+        "description": "Tek Grup jamoasi 2023-yil iyul-avgust oylarida o’z jamoasiga treninglar o’tkazdi. Unda hamkor kompaniyalar o’zlarining dori vositalarini tanishtirib o’tdilar.",
+        "button": "Ko'proq o'qish"
+      },
+      {
+        "id": 3,
+        "title": "2024-yil 8-oktabrdagi Konferensiyadan lavhalar",
+        "date": "Mart 13, 2025",
+        "description": "Uchrashuv davomida tibbiyotdagi yangiliklar, yurtimizdagi ushbu sohadagi o’zgarishlar yuzasidan suhbatlar o’tkazildi",
+        "button": "Ko'proq o'qish"
+      },
+      {
+        "id": 4,
+        "title": "Tekgrup nima bilan shugullanadi",
+        "date": "Avgust 4, 2024",
+        "description": "«Tek Grup Saglik Hizmetleri» Mas’uliyati Cheklangan Jamiyat Xorijiy Korxonasi 2018 yilda tashkil etilgan bo‘lib, TEKGRUP xalqaro tanilgan holdingi tarkibiga kiradi va 10 yildan ortiq tajribaga",
+        "button": "Ko'proq o'qish"
+      }
+    ]
+  },
+  "products": {
+    "item1": "Dori mahsulotlari",
+    "item2": "Kosmetika mahsulotlari",
+    "item3": "Tibbiy buyumlar",
+    "product_not_found": "Mahsulot topilmadi...",
+    "section": "Bo'lim",
+    "description": "Tavsif",
+    "usage": "Qo'llanishi",
+    "price": "Narxi",
+    "similar_products": "O'xshash mahsulotlar",
+    "details": "Batafsil",
+    "default_sort": "Odatiy tartiblash",
+    "sort_by_popularity": "Mashhurligi bo'yicha",
+    "sort_price_low_to_high": "Narx: Arzondan yo'qoriga",
+    "sort_price_high_to_low": "Narx: Qimmatdan arzoniga"
+  },
+  "batafsil": {
+    "uz": "Batafsil",
+    "en": "Details",
+    "ru": "Подробнее"
+  },
+  "about": {
+    "heroTitle": "Biz haqimizda",
+    "heroSubtitle": "Sog‘lom dunyo uchun harakat qilamiz!",
+    "whoWeAre": "Biz kimmiz?",
+    "whoWeAreTitle": "Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni ham kashf eting.",
+    "whoWeAreText": "«Tek Grup Saglik Hizmetleri» Mas’uliyati Cheklangan Jamiyat Xorijiy Korxonasi 2018 yilda tashkil etilgan bo‘lib, TEKGRUP xalqaro tanilgan holdingi tarkibiga kiradi va 10 yildan ortiq  tajribaga ega. U 2023 yildan boshlab O‘zbekiston farmatsevtik tarqatish bozorida faoliyat yuritmoqda. Kompaniya o‘z faoliyatini «Yaxshi raqobat» prinsipi asosida amalga oshirib, bu prinsipga  amal qilib, barcha xodimlar va manfaatdor tomonlarga nisbatan shu siyosatni davom ettirmoqda. Farmatsevtik mahsulotlar assortimentini texnologiyalar rivojlanishi va aholining ehtiyojlarini hisobga olgan holda kengaytirmoqda. Yaxshi rivojlangan infratuzilma va innovatsion, ijodiy mutaxassislar jamoasi yordamida, ular farmatsevtika va sog‘liqni saqlash sohasida professional bilim va ko‘nikmalarini doimiy ravishda oshirib bormoqda.",
+    "whatWeDo": "Nima Qilamiz?",
+    "whatWeDoText": "Tek Grup Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika...",
+    "learnMore": "Ko'proq bilish",
+    "ourServices": "Biz nimalar bilan shugu'llanamiz",
+    "servicesTitle": "« Tek Grup Saglik Hizmetleri » XK MCHJ tomonidan taqdim etiladigan xizmatlar",
+    "service1": "Farmatsevtik mahsulotlarni saqlash va yetkazib berish.",
+    "service2": "Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika va gigiena mahsulotlarini marketing va realizatsiya qilish;",
+    "certificatesTitle": "Bizning Sertifikatlarimiz"
+  },
+  "contact": {
+    "contact_heading": "Biz bilan bog'laning",
+    "contact_subheading": "Bizning xizmatlar sizga qiziqmi? Biz bilan bog'laning!",
+    "contact_title": "Hoziroq bog'laning",
+    "contact_form_title": "Bizga xabar qoldiring",
+    "department_hr": "Kadrlar bo'limi",
+    "department_sales": "Sotuv bo'limi",
+    "department_info": "Qo'shimcha ma'lumot uchun",
+    "form_first_name": "Ismingiz",
+    "form_last_name": "Familiyangiz",
+    "form_email": "Elektron pochta manzili",
+    "form_message": "Xabaringiz",
+    "form_submit": "Xabar yuborish",
+    "form_cancel": "Bekor qilish",
+    "toast_success": "Xabar muvaffaqiyatli yuborildi!"
+  },
+  "footer": {
+    "company_name": "Tek Grup Sog'liqni saqlash Xizmatlari",
+    "contact_heading": "Bizga bog'laning",
+    "address": "Toshkent sh. Bektemir tumani Oltintopgan ko’chasi 40-uy",
+    "email": "info.uz@tekgrup.net",
+    "phone": "+998 55 515 04 15",
+    "map_alt_text": "Xarita bo'yicha joylashuv",
+    "rights_reserved": "© 2025 Tek Grup Sog'liqni saqlash Xizmatlari. Barcha huquqlar himoyalangan."
+  }
+}

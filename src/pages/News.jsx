@@ -1,8 +1,10 @@
 import React from "react";
 import { konferensiya, male, medicine2, sertificate, trening } from "../assets";
 import { NavLink } from "react-router";
+import { useTranslation } from "react-i18next";
 
 function News() {
+  const { t } = useTranslation();
   return (
     <div className="w-full pb-10">
       <div className="w-full mb-10 relative">
@@ -13,105 +15,81 @@ function News() {
         />
         <div className="absolute top-0 left-0 right-0 h-full w-full bg-black/30 flex justify-center items-center align-middle">
           <h1 data-aos="zoom-in-up" className="text-6xl text-white font-bold">
-            Yangiliklar
+            {t("news.title")}
           </h1>
         </div>
       </div>
       <div className="w-9/10 mx-auto mb-10 text-black/70 flex md:flex-row flex-col flex-wrap gap-8 justify-between">
-        <div className="md:w-[30%] w-full shadow-xl p-4">
+        <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
             src={sertificate}
             alt="sertificate"
-            className="w-[400px] h-[250px] object-cover mb-4"
+            className="w-full h-[250px] object-cover mb-4"
           />
           <h1 className="text-xl font-medium hover:text-[#009F7F] transition-all duration-400">
-            Tek Grup Sağlık Hizmetleri» ISO 9001:2015 Sertifikatini Qo‘lga
-            Kiritdi!
+            {t("news.cards.0.title")}
           </h1>
-          <span> Mart 13, 2025</span>
-          <p className="my-3">
-            Biz faxr bilan e’lon qilamiz: «Tek Grup Sağlık Hizmetleri»
-            kompaniyasi 2025-yil fevral oyida ISO 9001:2015 sifat menejmenti
-            tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
-            yuqori
-          </p>
+          <span>{t("news.cards.0.date")}</span>
+          <p className="my-3">{t("news.cards.0.description")}</p>
           <NavLink
             to="/news/item/1"
-            className="hover:text-[#009F7F] transition-all duration-400 font-medium"
+            className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
-            Ko'proq o'qish
+            {t("news.cards.0.button")}
           </NavLink>
         </div>
-        <div className="md:w-[30%] w-full shadow-xl p-4" id="2">
+        <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
             src={trening}
             alt="sertificate"
-            className="w-[400px] h-[250px] object-cover mb-4"
+            className="w-full h-[250px] object-cover mb-4"
           />
           <h1 className="text-xl font-medium hover:text-[#009F7F] transition-all duration-400">
-            Tek Grup Sağlık Hizmetleri» ISO 9001:2015 Sertifikatini Qo‘lga
-            Kiritdi!
+            {t("news.cards.1.title")}
           </h1>
-          <span> Mart 13, 2025</span>
-          <p className="my-3">
-            Biz faxr bilan e’lon qilamiz: «Tek Grup Sağlık Hizmetleri»
-            kompaniyasi 2025-yil fevral oyida ISO 9001:2015 sifat menejmenti
-            tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
-            yuqori
-          </p>
+          <span>{t("news.cards.1.date")}</span>
+          <p className="my-3">{t("news.cards.1.description")}</p>
           <NavLink
             to="/news/item/2"
-            className="hover:text-[#009F7F] transition-all duration-400 font-medium"
+            className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
-            Ko'proq o'qish
+            {t("news.cards.0.button")}
           </NavLink>
         </div>
-        <div className="md:w-[30%] w-full shadow-xl p-4">
+        <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
             src={konferensiya}
             alt="sertificate"
-            className="w-[400px] h-[250px] object-cover mb-4"
+            className="w-full h-[250px] object-cover mb-4"
           />
           <h1 className="text-xl font-medium hover:text-[#009F7F] transition-all duration-400">
-            Tek Grup Sağlık Hizmetleri» ISO 9001:2015 Sertifikatini Qo‘lga
-            Kiritdi!
+            {t("news.cards.2.title")}
           </h1>
-          <span> Mart 13, 2025</span>
-          <p className="my-3">
-            Biz faxr bilan e’lon qilamiz: «Tek Grup Sağlık Hizmetleri»
-            kompaniyasi 2025-yil fevral oyida ISO 9001:2015 sifat menejmenti
-            tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
-            yuqori
-          </p>
+          <span>{t("news.cards.2.date")}</span>
+          <p className="my-3">{t("news.cards.2.description")}</p>
           <NavLink
             to="/news/item/3"
-            className="hover:text-[#009F7F] transition-all duration-400 font-medium"
+            className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
-            Ko'proq o'qish
+            {t("news.cards.0.button")}
           </NavLink>
         </div>
-        <div className="md:w-[30%] w-full shadow-xl p-4">
+        <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
             src={male}
             alt="sertificate"
-            className="w-[400px] h-[250px] object-cover mb-4"
+            className="w-full h-[250px] object-cover mb-4"
           />
           <h1 className="text-xl font-medium hover:text-[#009F7F] transition-all duration-400">
-            Tek Grup Sağlık Hizmetleri» ISO 9001:2015 Sertifikatini Qo‘lga
-            Kiritdi!
+            {t("news.cards.3.title")}
           </h1>
-          <span> Mart 13, 2025</span>
-          <p className="my-3">
-            Biz faxr bilan e’lon qilamiz: «Tek Grup Sağlık Hizmetleri»
-            kompaniyasi 2025-yil fevral oyida ISO 9001:2015 sifat menejmenti
-            tizimi sertifikatiga ega bo‘ldi! Ushbu sertifikat kompaniyamizning
-            yuqori
-          </p>
+          <span>{t("news.cards.3.date")}</span>
+          <p className="my-3">{t("news.cards.3.description")}</p>
           <NavLink
             to="/news/item/4"
-            className="hover:text-[#009F7F] transition-all duration-400 font-medium"
+            className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
-            Ko'proq o'qish
+            {t("news.cards.0.button")}
           </NavLink>
         </div>
       </div>

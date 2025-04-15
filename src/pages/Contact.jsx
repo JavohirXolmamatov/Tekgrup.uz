@@ -3,8 +3,10 @@ import { bg2 } from "../assets";
 import axios from "axios";
 // import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { ToastContainer, toast } from "react-toastify";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState(false);
   const notify = () => toast("Successfully message!");
   const handleSumit = async (e) => {
@@ -56,13 +58,13 @@ function Contact() {
             data-aos="fade-up"
             className="md:text-6xl text-4xl font-bold text-white"
           >
-            Biz bilan bog'laning
+            {t("contact.contact_heading")}
           </h1>
           <p
             data-aos="fade-down"
             className="md:text-3xl text-xl text-white font-medium"
           >
-            Bizning xizmatlar sizga qiziqmi? Biz bilan bog'laning!
+            {t("contact.contact_subheading")}
           </p>
         </div>
       </section>
@@ -71,17 +73,17 @@ function Contact() {
         <div className="w-9/10 mx-auto flex md:flex-row flex-col justify-center items-center gap-5 my-20">
           <div className="md:w-1/2 w-full rounded-2xl shadow-2xl bg-white md:p-14 p-3 md:h-[600px]">
             <span className="text-md font-medium uppercase text-[#1BA98D]">
-              Biz bilan Bog'laning
+              {t("contact.contact_heading")}
             </span>
             <h1 className="md:text-5xl text-3xl font-bold text-black/80 my-5 mb-8">
-              Hoziroq bog'laning
+              {t("contact.contact_title")}
             </h1>
             <hr className="text-black/30 mb-8" />
             <div className="my-4 flex md:gap-5 gap-2">
               <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
                 <h1 className="text-md font-bold text-black/50">
-                  Kadrlar bo'limi
+                  {t("contact.department_hr")}
                 </h1>
                 <p className="text-black/50">hr.uz@tekgrup.net</p>
               </div>
@@ -90,7 +92,7 @@ function Contact() {
               <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
                 <h1 className="text-md font-bold text-black/50">
-                  Sotuv bo'limi
+                  {t("contact.department_sales")}
                 </h1>
                 <p className="text-black/50">
                   sales.uz@tekgrup.net | +998 55 511 16 86
@@ -101,7 +103,7 @@ function Contact() {
               <div className="rounded-full bg-[#D4F8C4] md:h-[50px] md:w-[50px] h-[30px] w-[30px]"></div>
               <div className="">
                 <h1 className="text-md font-bold text-black/50">
-                  Qo'shimcha ma'lumot uchun
+                  {t("contact.department_info")}
                 </h1>
                 <p className="text-black/50">
                   info.uz@tekgrup.net | +998 55 515 04 15
@@ -111,7 +113,7 @@ function Contact() {
           </div>
           <div className="md:w-1/2 w-full rounded-2xl shadow-2xl bg-white md:p-14 p-5 md:min-h-[600px]">
             <h1 className="md:text-5xl text-3xl font-bold text-black/80">
-              Bizga xabar qoldiring
+              {t("contact.contact_form_title")}
             </h1>
             <form onSubmit={handleSumit}>
               <div className="space-y-12">
@@ -122,7 +124,7 @@ function Contact() {
                         htmlFor="firstName"
                         className="block text-sm/6 font-medium text-gray-900"
                       >
-                        First name
+                        {t("contact.form_first_name")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -142,7 +144,7 @@ function Contact() {
                         htmlFor="lastName"
                         className="block text-sm/6 font-medium text-gray-900"
                       >
-                        Last name
+                        {t("contact.form_last_name")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -162,7 +164,7 @@ function Contact() {
                         htmlFor="email"
                         className="block text-sm/6 font-medium text-gray-900"
                       >
-                        Email address
+                        {t("contact.form_email")}
                       </label>
                       <div className="mt-2">
                         <input
@@ -182,7 +184,7 @@ function Contact() {
                         htmlFor="message"
                         className="block text-sm/6 font-medium text-gray-900"
                       >
-                        Message
+                        {t("contact.form_message")}
                       </label>
                       <div className="mt-2">
                         <textarea
@@ -205,13 +207,13 @@ function Contact() {
                   type="button"
                   className="text-sm/6 font-semibold text-gray-900"
                 >
-                  Cancel
+                  {t("contact.form_cancel")}
                 </button>
                 <button
                   type="submit"
                   className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  {isLoading ? "loading..." : "Xabar yuborish"}
+                  {isLoading ? "loading..." : t("contact.form_submit")}
                 </button>
               </div>
             </form>

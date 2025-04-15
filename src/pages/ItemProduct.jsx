@@ -3,10 +3,12 @@ import { Carplatu, medicine } from "../assets";
 import product from "../components/products.json";
 import ItemProductCard from "../components/ItemProductCard";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function ItemProduct() {
   const [productLink, setProductLink] = useState([]);
   const { id } = useParams();
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (id && product[id]) {
@@ -38,15 +40,13 @@ function ItemProduct() {
     <div className="w-full h-auto py-20 ">
       <div className="w-8/10 mx-auto flex flex-row gap-5 items-center justify-end mb-10">
         <select
-          name=""
-          id=""
-          className="border-1 px-2 py-2 rounded-md"
           onChange={handleSelected}
+          className="border-1 px-2 py-2 rounded-md"
         >
-          <option value="all">Odatiy tartiblash</option>
-          <option value="mashhur">Mashhurligi bo'yicha</option>
-          <option value="arzon">Narx: Arzondan yo'qoriga</option>
-          <option value="qimmat">Narx: Qimmatdan arzoniga</option>
+          <option value="all">{t("products.default_sort")}</option>
+          <option value="mashhur">{t("products.sort_by_popularity")}</option>
+          <option value="arzon">{t("products.sort_price_low_to_high")}</option>
+          <option value="qimmat">{t("products.sort_price_high_to_low")}</option>
         </select>
       </div>
       <div className="flex w-9/10 md:flex-row flex-col  mx-auto items-center gap-10 flex-wrap">

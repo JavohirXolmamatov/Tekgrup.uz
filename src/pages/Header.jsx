@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,6 +9,12 @@ function Header() {
     isActive
       ? "text-[#009F7F] transition duration-200 ease-in-out"
       : "hover:text-[#009F7F] transition duration-200 ease-in-out";
+
+  const { t, i18n } = useTranslation();
+  const handleLan = (e) => {
+    // console.log(e.target.value);
+    i18n.changeLanguage(e.target.value);
+  };
 
   return (
     <div className="w-full shadow-md">
@@ -38,30 +45,36 @@ function Header() {
             <ul className="hidden md:flex gap-x-8 text-xl font-medium ">
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to={"/"} className={getLinkClass}>
-                  Main
+                  {t("header.main")}
                 </NavLink>
               </li>
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to="/news" className={getLinkClass}>
-                  News
+                  {t("header.news")}
                 </NavLink>
               </li>
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to={"/product"} className={getLinkClass}>
-                  Products
+                  {t("header.products")}
                 </NavLink>
               </li>
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to={"/about"} className={getLinkClass}>
-                  About
+                  {t("header.about")}
                 </NavLink>
               </li>
               <li className="hover:text-[#009F7F] transition duration-200 ease-in-out">
                 <NavLink to={"/contact"} className={getLinkClass}>
-                  Contact
+                  {t("header.contact")}
                 </NavLink>
               </li>
-              <select name="" id="" className="">
+              <select
+                name="lan"
+                id="lan"
+                className=""
+                onChange={handleLan}
+                value={i18n.language}
+              >
                 <option value="uz">UZ</option>
                 <option value="ru">RU</option>
                 <option value="en">EN</option>
@@ -83,30 +96,36 @@ function Header() {
                 >
                   <li className="">
                     <NavLink to={"/"} className={getLinkClass}>
-                      Main
+                      {t("header.main")}
                     </NavLink>
                   </li>
                   <li className="">
                     <NavLink to="/news" className={getLinkClass}>
-                      News
+                      {t("header.news")}
                     </NavLink>
                   </li>
                   <li className="">
                     <NavLink to={"/product"} className={getLinkClass}>
-                      Products
+                      {t("header.products")}
                     </NavLink>
                   </li>
                   <li className="">
                     <NavLink to={"/about"} className={getLinkClass}>
-                      About
+                      {t("header.about")}
                     </NavLink>
                   </li>
                   <li className="">
                     <NavLink to={"/contact"} className={getLinkClass}>
-                      Contact
+                      {t("header.contact")}
                     </NavLink>
                   </li>
-                  <select name="languages" id="languages" className="">
+                  <select
+                    name="lan"
+                    id="lan"
+                    className=""
+                    onChange={handleLan}
+                    value={i18n.language}
+                  >
                     <option value="uz">UZ</option>
                     <option value="ru">RU</option>
                     <option value="en">EN</option>

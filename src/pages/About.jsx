@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   about1,
   bg2,
@@ -8,6 +9,7 @@ import {
 } from "../assets";
 import { Swipers, SwiperSertificat } from "../components";
 function About() {
+  const { t } = useTranslation();
   return (
     <div className="w-full">
       <section className="w-full relative">
@@ -21,13 +23,13 @@ function About() {
             data-aos="fade-up"
             className="md:text-6xl text-3xl font-bold text-white"
           >
-            Biz haqimizda
+            {t("about.heroTitle")}
           </h1>
           <p
             data-aos="fade-down"
             className="md:text-3xl text-xl text-white font-medium"
           >
-            Sog‘lom dunyo uchun harakat qilamiz!
+            {t("about.heroSubtitle")}
           </p>
         </div>
       </section>
@@ -36,27 +38,13 @@ function About() {
         <div className="md:w-8/10 w-9/10 mx-auto md:my-30 my-5 flex md:flex-row flex-col gap-5 justify-between items-center align-middle">
           <div className="md:w-1/2 w-full pr-5">
             <span className="text-md font-medium uppercase text-blue-300">
-              Biz kimmiz?
+              {t("about.whoWeAre")}
             </span>
             <h1 className="md:text-5xl text-3xl font-bold text-black/90 mt-5">
-              Biz bilan, faqat dori-darmon emas, balki keng qamrovli xizmatlarni
-              ham kashf eting.
+              {t("about.whoWeAreTitle")}
             </h1>
             <p className="mt-5 text-md text-[#573131]">
-              «Tek Grup Saglik Hizmetleri» Mas’uliyati Cheklangan Jamiyat
-              Xorijiy Korxonasi 2018 yilda tashkil etilgan bo‘lib, TEKGRUP
-              xalqaro tanilgan holdingi tarkibiga kiradi va 10 yildan ortiq
-              tajribaga ega. U 2023 yildan boshlab O‘zbekiston farmatsevtik
-              tarqatish bozorida faoliyat yuritmoqda. Kompaniya o‘z faoliyatini
-              «Yaxshi raqobat» prinsipi asosida amalga oshirib, bu prinsipga
-              amal qilib, barcha xodimlar va manfaatdor tomonlarga nisbatan shu
-              siyosatni davom ettirmoqda. Farmatsevtik mahsulotlar
-              assortimentini texnologiyalar rivojlanishi va aholining
-              ehtiyojlarini hisobga olgan holda kengaytirmoqda. Yaxshi
-              rivojlangan infratuzilma va innovatsion, ijodiy mutaxassislar
-              jamoasi yordamida, ular farmatsevtika va sog‘liqni saqlash
-              sohasida professional bilim va ko‘nikmalarini doimiy ravishda
-              oshirib bormoqda.
+              {t("about.whoWeAreText")}
             </p>
           </div>
           <div className="md:w-1/2 w-full">
@@ -80,24 +68,20 @@ function About() {
             data-aos="zoom-in"
             className="md:text-5xl text-3xl text-center font-bold md:w-[55%] md:leading-16 text-white"
           >
-            Nima Qilamiz?
+            {t("about.whatWeDo")}
           </h1>
           <p
             data-aos="zoom-in"
-            className="text-white/90 text-lg text-center md:w-2/4 w-full"
+            className="text-white/90 text-lg text-center md:w-2/4 w-9/10"
           >
-            Tek Grup Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika va
-            gigiena mahsulotlari bo‘yicha keng assortimentni taqdim etadi.
-            Yuqori darajadagi imkoniyatlar va saqlash sharoitlarimiz orqali, biz
-            barcha mahsulotlarni mijozlarimizga xavfsiz va ishonchli tarzda
-            yetkazib beramiz.
+            {t("about.whatWeDoText")}
           </p>
           <a
             data-aos="zoom-in"
             href="#"
             className="bg-blue-500 text-white text-lg hover:bg-blue-500/80 font-medium py-3 px-8 rounded-lg"
           >
-            Ko'proq bilish
+            {t("about.learnMore")}
           </a>
         </div>
       </section>
@@ -110,7 +94,7 @@ function About() {
             data-aos-easing="ease-in-sine"
             className="uppercase text-[#009F7F] font-medium md:text-start text-center"
           >
-            Biz nimalar bilan shugu'llanamiz
+            {t("about.ourServices")}
           </h1>
           <div className="flex md:flex-row flex-col gap-x-5 items-center align-middle">
             <div
@@ -120,8 +104,7 @@ function About() {
               className="md:w-2/4 w-full"
             >
               <h1 className="md:text-5xl text-3xl font-medium mt-3 md:text-start text-center">
-                « Tek Grup Saglik Hizmetleri » XK MCHJ tomonidan taqdim
-                etiladigan xizmatlar
+                {t("about.servicesTitle")}
               </h1>
               <img src={testimonial} alt="testimonial" />
             </div>
@@ -135,7 +118,7 @@ function About() {
                 transition-transform transform duration-300"
               >
                 {" "}
-                Farmatsevtik mahsulotlarni saqlash va yetkazib berish.
+                {t("about.service1")}
               </div>
               <div
                 data-aos="fade-left"
@@ -143,8 +126,7 @@ function About() {
                 data-aos-easing="ease-in-sine"
                 className="bg-white md:py-10 py-5 md:px-20 px-5 md:text-2xl text-xl font-medium text-black/40 shadow-xl rounded-xl hover:scale-103 transition-transform transform duration-300"
               >
-                Dori-darmonlar, tibbiy asbob-uskunalar, kosmetika va gigiena
-                mahsulotlarini marketing va realizatsiya qilish;
+                {t("about.service2")}
               </div>
             </div>
           </div>
@@ -162,7 +144,7 @@ function About() {
             data-aos="zoom-in"
             className="md:text-6xl text-4xl text-center font-bold md:w-[50%] md:leading-16 text-white"
           >
-            Bizning Sertifikatlarimiz
+            {t("about.certificatesTitle")}
           </h1>
 
           <div className="w-9/10 mx-auto mt-5">{<SwiperSertificat />}</div>

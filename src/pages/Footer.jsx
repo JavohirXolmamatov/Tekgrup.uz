@@ -1,7 +1,9 @@
 import React from "react";
 import { Map } from "../components";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="w-full">
       <div className="flex md:flex-row flex-col w-9/10 mx-auto gap-10 text-black/50">
@@ -12,14 +14,14 @@ function Footer() {
             className="w-[250px]"
           />
           <span className="text-md font-bold block pt-2">
-            Tek Grup Health Services{" "}
+            {t("footer.company_name")}
           </span>
         </div>
         <div className="md:w-1/4 w-full">
-          <h1 className="text-xl font-bold text-black/70">Bizga bog'laning</h1>
-          <p className="py-1">
-            Toshkent sh. Bektemir tumani Oltintopgan ko’chasi 40-uy
-          </p>
+          <h1 className="text-xl font-bold text-black/70">
+            {t("footer.contact_heading")}
+          </h1>
+          <p className="py-1">{t("footer.address")}</p>
           <p className="py-1">info.uz@tekgrup.net</p>
           <p className="py-1">+998 55 515 04 15</p>
         </div>
@@ -29,7 +31,7 @@ function Footer() {
       </div>
       <hr className="w-9/10 mx-auto block my-10 text-black/50" />
       <p className="w-9/10 mx-auto text-black/50 text-md text-center md:text-start mb-2">
-        © 2025 Tek Grup Health Services. All rights reserved.
+        {t("footer.rights_reserved")}
       </p>
     </div>
   );
