@@ -2,6 +2,7 @@ import CountUp from "react-countup";
 import { bg1, bg2, medicine, onko, testimonial } from "../assets/index";
 import { Swipers } from "../components";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router";
 
 function Main() {
   const { t } = useTranslation();
@@ -32,7 +33,7 @@ function Main() {
           </p>
           <a
             data-aos="zoom-in"
-            href="#"
+            href="/product"
             className="bg-white text-[#009F7F] text-lg hover:bg-white/90 font-medium py-3 px-8 rounded-lg"
           >
             {t("main.hero.button")}
@@ -136,13 +137,13 @@ function Main() {
           <p data-aos="zoom-in" className="text-white/90 text-lg">
             {t("main.distribution.description")}
           </p>
-          <a
+          <NavLink
+            to={"/contact"}
             data-aos="zoom-in"
-            href="#"
             className="bg-blue-500 text-white text-lg hover:bg-blue-500/80 font-medium py-3 px-8 rounded-lg"
           >
             {t("main.distribution.button")}
-          </a>
+          </NavLink>
         </div>
       </section>
 

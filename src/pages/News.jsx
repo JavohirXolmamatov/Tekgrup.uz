@@ -31,12 +31,12 @@ function News() {
           </h1>
           <span>{t("news.cards.0.date")}</span>
           <p className="my-3">{t("news.cards.0.description")}</p>
-          <NavLink
+          {/* <NavLink
             to="/news/item/1"
             className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
             {t("news.cards.0.button")}
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
@@ -49,12 +49,12 @@ function News() {
           </h1>
           <span>{t("news.cards.1.date")}</span>
           <p className="my-3">{t("news.cards.1.description")}</p>
-          <NavLink
+          {/* <NavLink
             to="/news/item/2"
             className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
             {t("news.cards.0.button")}
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
@@ -67,12 +67,12 @@ function News() {
           </h1>
           <span>{t("news.cards.2.date")}</span>
           <p className="my-3">{t("news.cards.2.description")}</p>
-          <NavLink
+          {/* <NavLink
             to="/news/item/3"
             className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
             {t("news.cards.0.button")}
-          </NavLink>
+          </NavLink> */}
         </div>
         <div className="md:w-[30%] md:h-[530px] h-[600px] w-full shadow-xl p-4 relative">
           <img
@@ -85,12 +85,12 @@ function News() {
           </h1>
           <span>{t("news.cards.3.date")}</span>
           <p className="my-3">{t("news.cards.3.description")}</p>
-          <NavLink
+          {/* <NavLink
             to="/news/item/4"
             className="hover:text-[#009F7F] absolute bottom-5 transition-all duration-400 font-medium"
           >
             {t("news.cards.0.button")}
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </div>
